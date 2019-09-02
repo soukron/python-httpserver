@@ -28,6 +28,8 @@ This is a sample project with a very simple HTTP server in Python 3 with a templ
    $ oc process -f build/pipeline-{with or without}-secret.yaml | oc apply -f -
    ```
 
+   Optionally you can use `build/pipeline-with-basicauth-secret.yaml` template to get the code using Basic Authentication instead of RSA key.
+
 5. Wait until Jenkins is completely deployed
 
 6. Start the pipeline
